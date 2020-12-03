@@ -26,7 +26,7 @@ function draw()
   
   car.velocityX = speed;
 
-  if(wall.x - car.x < wall.width/2 + car.width/2)
+  if(wall.x - car.x < (car.width + wall.width)/2)
   {
     fill("red");
     textSize(50);
